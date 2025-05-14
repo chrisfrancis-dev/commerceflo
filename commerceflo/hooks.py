@@ -83,7 +83,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "commerceflo.install.before_install"
-# after_install = "commerceflo.install.after_install"
+after_install = "commerceflo.install.set_default_logos"
 
 # Uninstallation
 # ------------
