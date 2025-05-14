@@ -3,9 +3,11 @@ def set_default_logos():
 
     try:
         website_settings = frappe.get_doc("Website Settings")
-        website_settings.logo = "/assets/commerceflo/images/logo.png"
-        website_settings.login_background = "/assets/commerceflo/images/login_background.jpg"
-        website_settings.favicon = "/assets/commerceflo/images/logo.png"
+        navbar_settings = frappe.get_doc("Navbar Settings")
+        website_settings.app_logo = "/assets/commerceflo/images/logo2.png"
+        website_settings.splash_image = "/assets/commerceflo/images/logo2.png"
+        website_settings.favicon = "/assets/commerceflo/images/logo.jpeg"
+        navbar_settings.app_logo = "/assets/commerceflo/images/logo2.png"
         website_settings.save()
         frappe.db.commit()
         print(" Default logos set successfully.")
