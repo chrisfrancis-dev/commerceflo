@@ -5,10 +5,11 @@ Saas platform
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+Setup and install ERPNext before installing commerceflo
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
+bench get-app git@github.com:chrisfrancis-dev/commerceflo.git
 bench install-app commerceflo
 ```
 
