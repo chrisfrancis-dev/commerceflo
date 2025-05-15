@@ -242,3 +242,5 @@ after_install = "commerceflo.install.set_default_logos"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+app_include_css = "/assets/commerceflo/css/custom.css"
+app_include_js = "/assets/commerceflo/js/custom.js"
