@@ -1,4 +1,58 @@
-.navbar {
-    background-color: #123456 !important;
-  }
+/* .col-lg-2.layout-side-section{
+      position: fixed;
+
+      height: 100vh;
+      width: 220px; 
+      overflow-y: auto;
+      background-color: #FAEDCA; 
+      z-index: 1000; 
+      border-right: 1px solid #F2C078;
+} */
+.row.layout-main {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Sidebar */
+.layout-side-section {
+  position: fixed;
   
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #213448;
+  /* border-right: 1px solid; */
+  color: white; /* Text color */
+  z-index: 1000;
+}
+ .desk-sidebar-item.selected {
+      background-color: #547792 !important;
+ }
+.sidebar-item-label{
+  color: #ECEFCA ;
+}
+.section-title{
+    color: #ECEFCA ;
+}
+ .desk-sidebar-item:hover {
+      background-color: #547792 !important;
+ } 
+.page-title{
+  position:fixed;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  margin:auto
+}
+ :root, [data-theme=light] {
+     --icon-stroke-sm: #ECEFCA;
+ }
+ path[d="M3 8h18M3 6v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"] {
+     stroke: var(--icon-stroke-sm);
+ }
+ path[d="M6.273 15.136h4.09"] {
+     stroke: var(--icon-stroke-sm);
+ }
