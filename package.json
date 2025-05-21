@@ -1,0 +1,28 @@
+{
+  "name": "commerceflo",
+  "version": "1.0.0",
+  "description": "Saas platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild",
+    "watch": "node esbuild --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisfrancis-dev/commerceflo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisfrancis-dev/commerceflo/issues"
+  },
+  "homepage": "https://github.com/chrisfrancis-dev/commerceflo#readme",
+  "dependencies": {
+    "esbuild": "^0.25.4",
+    "esbuild-plugin-vue3": "^0.4.2",
+    "pinia": "^3.0.2",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1"
+  }
+}
